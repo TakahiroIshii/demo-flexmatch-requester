@@ -1,0 +1,24 @@
+{
+  "name": "demo-flexmatch-requester",
+  "version": "1.0.0",
+  "main": "requester.ts",
+  "repository": "git@github.com:TakahiroIshii/demo-flexmatch-requester.git",
+  "author": "Takahiro Ishii <itkh@amazon.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn nodemon -r ts-node/register src/requester.ts"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^15.3.0",
+    "nodemon": "^2.0.14",
+    "prettier": "^2.3.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "aigle": "^1.14.1",
+    "aws-sdk": "^2.1016.0",
+    "axios": "^0.21.1"
+  }
+}
